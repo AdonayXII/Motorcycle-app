@@ -1,0 +1,44 @@
+.footer {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.Contact>div {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.social>div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .footer {
+        display: block;
+    }
+
+    .social {
+        text-align: center;
+    }
+}

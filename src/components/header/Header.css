@@ -1,0 +1,33 @@
+.topHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 12px;
+}
+
+.topHeader a{
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bottomHeader{
+    margin: 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottomHeader a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 600px){
+    .bottomHeader{
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -3,16 +3,18 @@ import "./Header.css"
 function Header() {
     return (
         <>
-            <div className="header">
+            <div className="topHeader">
                 <div className="logo">
-                    <img src="logo-app.svg"></img>
+                    <img src="logo-app.svg" width={100} height={90}></img>
                 </div>
                 <div className="text">
-                    <p>FIND UR DREAM</p>
+                    <a href="/home">FIND YOUR DREAM</a>
                 </div>
-                <div className="menu">
-                    <p>menu</p>
-                </div>
+            </div>
+            <div className="bottomHeader">
+                <a href="/kawasaki">Kawasaki</a>
+                <a href="/kawasaki">Honda</a>
+                <a href="/kawasaki">KTM</a>
             </div>
         </>
     );
