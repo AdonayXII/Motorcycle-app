@@ -57,10 +57,10 @@ const hondaMotorcycles = [
     },
 ];
 
-const getHondaMotor = () => {
+const getHonda = () => {
     return hondaMotorcycles;
 }
 
 export default {
-    getHondaMotor
+    getHonda
 }

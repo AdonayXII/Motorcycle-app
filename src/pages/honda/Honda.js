@@ -1,13 +1,13 @@
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
+import HondaList from "../../components/hondaList/HondaList";
 
 function Honda() {
     return (
         <>
             <Header></Header>
-            <body>
-                <h1>HONDA</h1>
-            </body>
+            <h1>HONDA</h1>
+            <HondaList></HondaList>
             <Footer></Footer>
         </>
     );

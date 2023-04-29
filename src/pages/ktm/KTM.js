@@ -1,13 +1,13 @@
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
+import KTMList from "../../components/ktmList/KTMList";
 
 function KTM() {
     return (
         <>
             <Header></Header>
-            <body>
-                <h1>KTM</h1>
-            </body>
+            <h1>KTM</h1>
+            <KTMList></KTMList>
             <Footer></Footer>
         </>
     );

@@ -1,16 +1,15 @@
-import serviceKawasaki from "../../services/service.kawasaki";
-import "./kawasaki_List.css"
+import serviceKawasaki from "../../services/service.kawasaki"
 
-function kawasakiList() {
-    const getKawaMotor = () => {
-        const allKawaMotorcycles = serviceKawasaki.getKawaMotor();
-        
+function KawaList() {
+    const getKawa = () => {
+        const allKawa = serviceKawasaki.getKawa();
+
         return (
-            allKawaMotorcycles.map(c => {
+            allKawa.map(c => {
                 return (
                     <div className="kawa-list-item">
                         <div className="kawa-list-img">
-                            <img src={`/assets/img/${c.img}`} alt="moto"></img>
+                            <img src={`/assets/img/${c.img}`} alt="kawasaki motorcycle" />
                         </div>
                         <p>{c.model} - {c.cc} - {c.cv} - {c.price}</p>
                     </div>
@@ -22,13 +21,12 @@ function kawasakiList() {
     return (
         <>
             <div className="kawa-main-container">
-                <div className="kawa-list-container">
-                    {getKawaMotor()}
+                <div className="kawa-list-img">
+                    {getKawa()}
                 </div>
             </div>
         </>
     );
-
 }
 
-export default kawasakiList;
+export default KawaList;

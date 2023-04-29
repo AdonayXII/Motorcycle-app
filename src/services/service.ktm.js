@@ -25,7 +25,7 @@ const ktmMotorcycles = [
         cc: "1301cc",
         cv: "180CV",
         price: "23.399€",
-        img: "ktm-1290_SUPER_R_EVO.jpg",
+        img: "ktm-1290_SUPER_DUKE_R_EVO.jpg",
     },
     {
         model: "1290 SUPER DUKE RR",
@@ -57,10 +57,10 @@ const ktmMotorcycles = [
     },
 ];
 
-const getKTMMotor = () => {
+const getKTM = () => {
     return ktmMotorcycles;
 }
 
 export default {
-  getKTMMotor
+  getKTM
 };

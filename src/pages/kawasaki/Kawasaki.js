@@ -1,17 +1,15 @@
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
+import KawaList from "../../components/kawaList/KawaList";
+
+function Kawasaki() {
 
 
-function Kawasaki(){
-    
-
-    return(
+    return (
         <>
             <Header></Header>
-            <body>
-                <h1>KAWASAKI</h1>
-            </body>
-            
+            <h1>KAWASAKI</h1>
+            <KawaList></KawaList>
             <Footer></Footer>
         </>
     );
