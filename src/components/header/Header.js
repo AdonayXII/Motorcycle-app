@@ -13,8 +13,8 @@ function Header() {
             </div>
             <div className="bottomHeader">
                 <a href="/kawasaki">Kawasaki</a>
-                <a href="/kawasaki">Honda</a>
-                <a href="/kawasaki">KTM</a>
+                <a href="/honda">Honda</a>
+                <a href="/ktm">KTM</a>
             </div>
         </>
     );

@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/home/Home';
-import Kawasaki from './pages/kawasaki/Kawasaki';
-import Honda from './pages/honda/Honda';
-import KTM from './pages/ktm/KTM';
+import Kawasaki from './pages/kawasaki/Kawasaki.js';
+import Honda from './pages/honda/Honda.js';
+import KTM from './pages/ktm/KTM.js';
 
 function App() {
   return (
