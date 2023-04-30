@@ -1,6 +1,7 @@
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import KTMList from "../../components/ktmList/KTMList";
+import "./KTM.css";
 
 function KTM() {
     return (

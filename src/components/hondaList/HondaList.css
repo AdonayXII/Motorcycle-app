@@ -1,0 +1,21 @@
+.honda-list-info{
+    display: block;
+    font-size: 13px;
+    text-align: center;
+}
+
+.honda-main-container {
+    display: flex;
+}
+
+.honda-list-img{
+    margin: 12px;
+}
+
+.honda-list-images{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    margin: 12px;
+}

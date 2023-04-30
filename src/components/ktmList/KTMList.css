@@ -1,0 +1,21 @@
+.ktm-list-info{
+    display: block;
+    font-size: 13px;
+    text-align: center;
+}
+
+.ktm-main-container {
+    display: flex;
+}
+
+.ktm-list-img{
+    margin: 12px;
+}
+
+.ktm-list-images{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    margin: 12px;
+}

@@ -1,0 +1,21 @@
+.kawa-list-info{
+    display: block;
+    font-size: 13px;
+    text-align: center;
+}
+
+.kawa-main-container {
+    display: flex;
+}
+
+.kawa-list-img{
+    margin: 12px;
+}
+
+.kawa-list-images{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    margin: 12px;
+}

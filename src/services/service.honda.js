@@ -7,7 +7,7 @@ const hondaMotorcycles = [
         img: "h-gold_wing_dct.jpg",
     },
     {
-        model: "CBR1000RR-R FIREBLADE SP 30 ANIVERSARIO",
+        model: "CBR1000RR-R 30 ANIVERSARIO",
         cc: "1000cc",
         cv: "217CV",
         price: "31.200€",

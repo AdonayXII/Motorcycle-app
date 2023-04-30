@@ -1,4 +1,5 @@
 import serviceKtm from "../../services/service.ktm";
+import "./KTMList.css";
 
 function KTMList() {
     const getKTM = () => {
@@ -11,7 +12,12 @@ function KTMList() {
                         <div className="ktm-list-img">
                             <img src={`/assets/img/${c.img}`} alt="KTM motorcycle" />
                         </div>
-                        <p>{c.model} - {c.cc} - {c.cv} - {c.price}</p>
+                        <div className="ktm-list-info">
+                            <p>{c.model}</p>
+                            <p>{c.cc}</p>
+                            <p>{c.cv}</p>
+                            <p>{c.price}</p>
+                        </div>
                     </div>
                 );
             })
@@ -21,7 +27,7 @@ function KTMList() {
     return (
         <>
             <div className="ktm-main-container">
-                <div className="ktm-list-img">
+                <div className="ktm-list-images">
                     {getKTM()}
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import KawaList from "../../components/kawaList/KawaList";
+import "./Kawasaki.css";
 
 function Kawasaki() {
 
