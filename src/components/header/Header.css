@@ -1,8 +1,14 @@
+.header{
+    background-color: #FEFCF3;
+}
+
 .topHeader {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 12px;
+    padding: 10px;
+    margin-left: 4px;
+    margin-right: 3px;
 }
 
 .topHeader a {

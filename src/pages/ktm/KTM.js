@@ -6,10 +6,18 @@ import "./KTM.css";
 function KTM() {
     return (
         <>
-            <Header></Header>
-            <h1>KTM</h1>
-            <KTMList></KTMList>
-            <Footer></Footer>
+            <html>
+                <header>
+                    <Header></Header>
+                </header>
+                <body>
+                    <h1>KTM</h1>
+                    <KTMList></KTMList>
+                    <footer>
+                        <Footer></Footer>
+                    </footer>
+                </body>
+            </html>
         </>
     );
 }
