@@ -10,8 +10,7 @@ function News(){
                     <Header></Header>
                 </header>
                 <body>
-                    <p>dsadsdasdasdljabsduigadjkg</p>
-                    <a href="find-motorcycle-app\src\services\service.rss.xml"></a>
+                    <h1><a href="News.xml">RSS</a></h1>
                     <footer>
                         <Footer></Footer>
                     </footer>

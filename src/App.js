@@ -5,6 +5,7 @@ import Kawasaki from './pages/kawasaki/Kawasaki.js';
 import Honda from './pages/honda/Honda.js';
 import KTM from './pages/ktm/KTM.js';
 import News from './pages/news/News';
+import Forum from './pages/forum/Forum';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path='/honda' element={<Honda />}></Route>
         <Route path='/ktm' element={<KTM />}></Route>
         <Route path='/news' element={<News />}></Route>
-        {/* <Route path='/forum' ></Route> */}
+        <Route path='/forum' element={<Forum />}></Route>
       </Routes>
     </BrowserRouter>
   );
