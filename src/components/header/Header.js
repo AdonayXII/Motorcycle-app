@@ -16,6 +16,8 @@ function Header() {
                     <a href="/kawasaki">Kawasaki</a>
                     <a href="/honda">Honda</a>
                     <a href="/ktm">KTM</a>
+                    <a href="/news">Noticias</a>
+                    <a href="/forum">Foro</a>
                 </div>
             </div>
         </>

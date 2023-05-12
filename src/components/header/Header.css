@@ -14,14 +14,15 @@
 .topHeader a {
     text-decoration: none;
     color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: cursive;
 }
 
 .bottomHeader {
     margin: 12px;
     display: flex;
     justify-content: center;
-    gap: 146px;
+    justify-content: space-around;
+    font-family: cursive;
 }
 
 .bottomHeader a {
@@ -35,6 +36,5 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 0px;
     }
 }
