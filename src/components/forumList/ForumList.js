@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash, faUpload } from "@fortawesome/free-solid-svg-icons"
 import serviceForum from "../../services/service.forum";
+import "./ForumList.css"
 
 function ForumList() {
     const [comments, setComment] = useState([]);

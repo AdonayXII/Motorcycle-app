@@ -1,0 +1,27 @@
+.forum-list-main-container {
+    display: block;
+    text-align: center;
+    padding: 4px;
+}
+
+.forum-form-container {
+    padding: 6px;
+}
+
+@media only screen and (max-width: 1200px){
+    .forum-form-container {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .forum-form-container {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .forum-form-container{
+        display: block;
+    }
+}
