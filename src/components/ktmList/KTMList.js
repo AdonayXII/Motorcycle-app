@@ -10,7 +10,7 @@ function KTMList() {
                 return (
                     <div className="ktm-list-item">
                         <div className="ktm-list-img">
-                            <img src={`/assets/img/${c.img}`} alt="KTM motorcycle" />
+                            <img src={`/assets/img/${c.img}`} alt="KTM motorcycle" width={250} height={200}/>
                         </div>
                         <div className="ktm-list-info">
                             <p>{c.model}</p>

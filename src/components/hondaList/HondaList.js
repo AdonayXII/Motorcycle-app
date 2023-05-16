@@ -10,7 +10,7 @@ function HondaList() {
                 return (
                     <div className="honda-list-item">
                         <div className="honda-list-img">
-                        <img src={`/assets/img/${c.img}`} alt="Honda motorcycle" />
+                        <img src={`/assets/img/${c.img}`} alt="Honda motorcycle" width={250} height={200}/>
                         </div>
                         <div className="honda-list-info">
                             <p>{c.model}</p>

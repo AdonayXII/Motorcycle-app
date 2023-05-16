@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Noticias de motos Honda, Kawasaki y KTM</title>
-    <link>https://www.ejemplo.com/noticias-motos</link>
+    <title>Honda CL500 2023: Polivalente, fácil de conducir y Scrambler</title>
+    <link>https://motorcycle-app-3102b.web.app/honda</link>
     <description>Últimas noticias de las marcas Honda, Kawasaki y KTM</description>
     <language>es-ES</language>
     <lastBuildDate>Fri, 14 May 2023 00:00:00 GMT</lastBuildDate>
     <item>
       <title>Honda presenta su nueva moto deportiva</title>
-      <link>https://www.ejemplo.com/noticia/honda-moto-deportiva</link>
+      <link>https://motorcycle-app-3102b.web.app/honda</link>
       <description>Honda ha presentado su última moto deportiva, con una potencia de 200 caballos y un diseño aerodinámico espectacular.</description>
       <pubDate>Thu, 13 May 2023 10:00:00 GMT</pubDate>
       <category>Honda</category>
     </item>
     <item>
       <title>Kawasaki lanza su nueva motocicleta eléctrica</title>
-      <link>https://www.ejemplo.com/noticia/kawasaki-motocicleta-electrica</link>
+      <link>https://motorcycle-app-3102b.web.app/honda</link>
       <description>Kawasaki ha lanzado su primera motocicleta eléctrica, con una autonomía de 150 km y un tiempo de carga de solo 30 minutos.</description>
       <pubDate>Wed, 12 May 2023 14:30:00 GMT</pubDate>
       <category>Kawasaki</category>
     </item>
     <item>
       <title>KTM anuncia el lanzamiento de su nueva moto de aventura</title>
-      <link>https://www.ejemplo.com/noticia/ktm-moto-aventura</link>
+      <link>https://motorcycle-app-3102b.web.app/honda</link>
       <description>KTM ha anunciado el lanzamiento de su última moto de aventura, diseñada para ofrecer una gran maniobrabilidad en todo tipo de terrenos.</description>
       <pubDate>Tue, 11 May 2023 09:45:00 GMT</pubDate>
       <category>KTM</category>

@@ -4,8 +4,9 @@ import Home from './pages/home/Home';
 import Kawasaki from './pages/kawasaki/Kawasaki.js';
 import Honda from './pages/honda/Honda.js';
 import KTM from './pages/ktm/KTM.js';
-import News from './pages/news/News';
-import Forum from './pages/forum/Forum';
+import News from './pages/news/News.js';
+import Forum from './pages/forum/Forum.js';
+import HondaNews from './pages/hondanews/HondaNews';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/ktm' element={<KTM />}></Route>
         <Route path='/news' element={<News />}></Route>
         <Route path='/forum' element={<Forum />}></Route>
+        <Route path='/hondanews' element={<HondaNews />}></Route>
       </Routes>
     </BrowserRouter>
   );
