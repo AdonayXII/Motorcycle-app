@@ -7,6 +7,8 @@ import KTM from './pages/ktm/KTM.js';
 import News from './pages/news/News.js';
 import Forum from './pages/forum/Forum.js';
 import HondaNews from './pages/hondanews/HondaNews';
+import KawasakiNews from './pages/kawasakinews/KawasakiNews';
+import KtmNews from './pages/ktmnews/KtmNews';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path='/news' element={<News />}></Route>
         <Route path='/forum' element={<Forum />}></Route>
         <Route path='/hondanews' element={<HondaNews />}></Route>
+        <Route path='/kawasakinews' element={<KawasakiNews />}></Route>
+        <Route path='/ktmnews' element={<KtmNews />}></Route>
       </Routes>
     </BrowserRouter>
   );

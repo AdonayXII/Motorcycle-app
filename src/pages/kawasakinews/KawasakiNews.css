@@ -1,0 +1,23 @@
+.introduction-kawa {
+    display: block;
+    justify-content: baseline;
+    margin-left: 12px;
+    padding: 5px;
+}
+
+.information-kawa {
+    display: block;
+    justify-content: baseline;
+    margin-left: 12px;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+}
+
+.information-kawa>div {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

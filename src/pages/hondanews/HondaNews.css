@@ -1,0 +1,22 @@
+.introduction-honda {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-right: 12px;
+    padding: 5px;
+}
+
+.information-honda {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-right: 12px;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+}
+
+.information-honda>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

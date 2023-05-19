@@ -1,0 +1,16 @@
+.introduction-ktm {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-right: 12px;
+    padding: 5px;
+}
+
+.information-ktm {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-right: 12px;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+}
