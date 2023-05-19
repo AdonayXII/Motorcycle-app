@@ -1,0 +1,10 @@
+body>div{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 12px;
+}
+
+p{
+    padding: 5px;
+}
