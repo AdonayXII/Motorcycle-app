@@ -6,9 +6,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px;
-    margin-left: 4px;
-    margin-right: 3px;
+    padding: 5px;
+    margin-left: 2px;
+    margin-right: 3px
 }
 
 .topHeader a {
@@ -23,12 +23,13 @@
     justify-content: center;
     justify-content: space-around;
     font-family: cursive;
+    font-style: italic;
 }
 
 .bottomHeader a {
     display: flex;
     text-decoration: none;
-    color: black;
+    color: brown;
 }
 
 @media only screen and (max-width: 600px) {
@@ -36,5 +37,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .logo{
+        border: 12px;
     }
 }

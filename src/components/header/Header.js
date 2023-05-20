@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faHouse} from "@fortawesome/free-solid-svg-icons"
 import "./Header.css"
 
 function Header() {
@@ -10,6 +12,9 @@ function Header() {
                     </div>
                     <div className="text">
                         <a href="/home">FIND YOUR DREAM</a>
+                    </div>
+                    <div className='return-home'>
+                    <a href='/home'><FontAwesomeIcon icon={faHouse} /></a>
                     </div>
                 </div>
                 <div className="bottomHeader">
